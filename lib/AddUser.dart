@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:hive_flutter/adapters.dart';
 
 import 'Model/User.dart';
@@ -23,6 +24,7 @@ class _AddUserState extends State<AddUser> {
 
   InputDecoration decoration(String label, Icon icon) {
     return InputDecoration(
+        counterText: '',
         border: const OutlineInputBorder(), labelText: label, prefixIcon: icon);
   }
 
@@ -106,11 +108,13 @@ class _AddUserState extends State<AddUser> {
             TextField(
                 controller: txtPhone,
                 keyboardType: TextInputType.phone,
+                maxLength: 13,
                 decoration: decoration("Phone", const Icon(Icons.phone))),
             const SizedBox(height: 10),
             TextField(
                 controller: txtEmail,
                 keyboardType: TextInputType.emailAddress,
+
                 decoration: decoration("Email", const Icon(Icons.alternate_email))),
             const SizedBox(height: 50),
             ElevatedButton(onPressed: () {
