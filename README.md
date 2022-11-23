@@ -1,16 +1,4 @@
 # flutter_hive_crud
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Simulator Screen Shot - iPhone 14 Pro Max - 2022-11-23 at 13 20 35](https://user-images.githubusercontent.com/16983215/203516728-210da4c0-c1ce-4c37-811a-5d38ecce7022.png)
+![Simulator Screen Shot - iPhone 14 Pro Max - 2022-11-23 at 13 20 30](https://user-images.githubusercontent.com/16983215/203516738-8aa5c968-89e9-4a06-86a0-167e1e3dd2ac.png)
